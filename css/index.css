@@ -293,6 +293,8 @@ footer ul li a img:hover{
 
   .col-4 a img{
     width: 100%; 
+    max-width: 150px;
+    max-height: 170px;
             
   }
 
