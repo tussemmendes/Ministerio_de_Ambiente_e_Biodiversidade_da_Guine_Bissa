@@ -1,0 +1,131 @@
+.categorias{
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.corpo-categorias{
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+
+.corpo-categorias img{
+    float: left;                 
+    width: 260px;                
+    margin: 0 20px 10px 0;       
+    border-radius: 8px;
+}
+
+
+.corpo-categorias h2,
+.corpo-categorias h3{
+    margin-top: 0;
+}
+
+.corpo-categorias p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.corpo-categorias p a{
+    font-weight: 600;
+    font-weight: 600;
+}
+
+
+.corpo-categorias::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.subnavegacao{
+    margin-top: 60px;
+    min-height: ;
+}
+.subnavegacao ul{
+    display:flex;
+   justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+
+}
+
+
+.subnavegacao ul li{
+    list-style: none;
+}
+
+.subnavegacao ul  li a{
+    text-decoration: none;
+    background-color:rgb(1, 89, 92);
+    padding: 15px;
+    text-align: center;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+  
+}
+
+.subnavegacao ul  li a:hover{
+    background-color: #ff523b;
+    border: solid 2px rgb(1, 89, 92);;
+}
+
+footer{
+    background-color: rgb(1, 89, 92);
+    padding: 20px 10px;  
+    width: 100%;
+}
+
+footer p{
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a img{
+    width: 40px;       
+    max-width: 100%;    
+    height: auto;
+    border-radius: 50%;
+}
+footer ul li a img:hover{
+    border: solid 2px white;
+}
+
+
+
+
+@media only screen and (max-width:800px){
+
+    .corpo-categorias img{
+        float: none;          
+        display: block;
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+
+    .corpo-categorias h2,
+    .corpo-categorias h3{
+        text-align: center;
+    }
+}
