@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 .banner{
    background-color: rgb(1, 89, 92);
    text-align: justify;
@@ -10,7 +11,7 @@
    margin-bottom: 60px;
 }
 
-.banner .linha{
+.banner, .linha{
     margin-top: 5px;
     margin: auto;
     text-align: center;
